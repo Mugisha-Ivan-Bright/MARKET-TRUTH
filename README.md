@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌍 Global Data Access Platform (Early Stage)
 
-## Getting Started
+An early-stage startup building simple, transparent access to cross‑border financial data.
 
-First, run the development server:
+This repository documents the startup journey, not just the code. It is written so visitors can quickly understand what we are building, why it matters, and how they can support it.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 What Problem Are We Solving?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access to financial and market data is:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Fragmented across countries
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Expensive or restricted
 
-## Learn More
+Hard for small developers and researchers to use
 
-To learn more about Next.js, take a look at the following resources:
+As a result, global investing and analysis is biased toward a few regions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We aim to change that by starting with data, not money.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧭 What Are We Building?
 
-## Deploy on Vercel
+A platform that:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Aggregates structured financial data across regions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Exposes it through a clean, developer‑friendly API
+
+Allows users to simulate investments (no real money)
+
+Grows transparently and responsibly
+
+This is infrastructure, not a trading app.
+
+🧪 Current Stage (v0)
+
+What exists today:
+
+A real dashboard (overview, data, API, simulator)
+
+User accounts and usage tracking
+
+Early data models and API structure
+
+What does not exist yet:
+
+Real‑money trading
+
+Monetization
+
+Institutional partnerships
+
+This is intentional.
+
+🛠 Tech Stack
+
+Frontend: Next.js (TypeScript)
+
+Backend: API‑first architecture
+
+Auth: Token‑based authentication
+
+Database: PostgreSQL (in progress)
+
+Deployment: Vercel
+
+The stack may evolve and will be documented openly.
+
+🤝 How You Can Support
+
+You can help by:
+
+Contributing code or ideas
+
+Giving architecture or UX feedback
+
+Suggesting datasets or use cases
+
+Supporting the project financially (early stage)
+
+Early supporters help shape direction.
+
+🧑‍💻 Founder
+
+Built by a software engineering student focused on systems, infrastructure, and long‑term impact.
+
+This started as a learning project and is growing into something real.
+
+🗺 Roadmap (High‑Level)
+
+v0 – Core platform, simulation, API skeleton
+
+v1 – Real datasets, developer onboarding
+
+v2 – Advanced analytics and broader access
+
+⚖️ Disclaimer
+
+This platform:
+
+Does not provide financial advice
+
+Does not execute trades
+
+Is a data and simulation platform only
