@@ -1,105 +1,116 @@
-🌍 Global Data Access Platform (Early Stage)
+# 🌍 Global Data Access Platform
 
-An early-stage startup building simple, transparent access to cross‑border financial data.
+> **Early-stage startup building simple and transparent access to cross-border financial data.**
 
-This repository documents the startup journey, not just the code. It is written so visitors can quickly understand what we are building, why it matters, and how they can support it.
+---
 
-🚀 What Problem Are We Solving?
+## ❓ What Is This?
 
-Access to financial and market data is:
+This project is an **early-stage startup**.
 
-Fragmented across countries
+We are building a platform that makes it easier to **access, compare, and experiment with financial data across countries** — starting with data and simulations, not real money.
 
-Expensive or restricted
+This repository documents the **journey**, not just the code.
 
-Hard for small developers and researchers to use
+---
 
-As a result, global investing and analysis is biased toward a few regions.
+## 🚀 The Problem
 
-We aim to change that by starting with data, not money.
+Today, financial and market data is:
 
-🧭 What Are We Building?
+* Fragmented across borders
+* Expensive or locked behind institutions
+* Hard for small developers, students, and researchers to access
 
-A platform that:
+This makes global analysis and investing unfair and limited.
 
-Aggregates structured financial data across regions
+---
 
-Exposes it through a clean, developer‑friendly API
+## 💡 Our Idea
 
-Allows users to simulate investments (no real money)
+We are building a platform that:
 
-Grows transparently and responsibly
+* Aggregates financial data from multiple regions
+* Exposes it through a clean, developer-friendly API
+* Allows users to run **investment simulations** (no real money)
+* Grows slowly, transparently, and responsibly
 
-This is infrastructure, not a trading app.
+👉 This is **data infrastructure**, not a trading app.
 
-🧪 Current Stage (v0)
+---
 
-What exists today:
+## 🧪 Current Stage — v0
 
-A real dashboard (overview, data, API, simulator)
+### What Exists
 
-User accounts and usage tracking
+* A real dashboard (Overview, Data, API, Simulator)
+* User accounts and basic profiles
+* Usage tracking (API calls, activity)
+* Early data models and API structure
 
-Early data models and API structure
+### What Does NOT Exist (Yet)
 
-What does not exist yet:
+* Real-money transactions
+* Monetization
+* Institutional partnerships
 
-Real‑money trading
+This is intentional for safety and focus.
 
-Monetization
+---
 
-Institutional partnerships
+## 🛠 Tech Stack
 
-This is intentional.
-
-🛠 Tech Stack
-
-Frontend: Next.js (TypeScript)
-
-Backend: API‑first architecture
-
-Auth: Token‑based authentication
-
-Database: PostgreSQL (in progress)
-
-Deployment: Vercel
+* **Frontend:** Next.js (TypeScript)
+* **Backend:** API-first architecture
+* **Authentication:** Token-based (JWT / Supabase-style)
+* **Database:** PostgreSQL (in progress)
+* **Deployment:** Vercel
 
 The stack may evolve and will be documented openly.
 
-🤝 How You Can Support
+---
 
-You can help by:
+## 🤝 How You Can Support
 
-Contributing code or ideas
+You can support this startup by:
 
-Giving architecture or UX feedback
-
-Suggesting datasets or use cases
-
-Supporting the project financially (early stage)
+* Contributing code or documentation
+* Giving system design or UX feedback
+* Suggesting datasets or real-world use cases
+* Supporting the project financially (early stage)
 
 Early supporters help shape direction.
 
-🧑‍💻 Founder
+---
 
-Built by a software engineering student focused on systems, infrastructure, and long‑term impact.
+## 🧑‍💻 Founder
 
-This started as a learning project and is growing into something real.
+Built by a software engineering student focused on:
 
-🗺 Roadmap (High‑Level)
+* Systems and infrastructure
+* Long-term, real-world impact
+* Learning by building real products
 
-v0 – Core platform, simulation, API skeleton
+This started as a learning project and is growing into something serious.
 
-v1 – Real datasets, developer onboarding
+---
 
-v2 – Advanced analytics and broader access
+## 🗺 Roadmap (High Level)
 
-⚖️ Disclaimer
+* **v0:** Core platform, simulation, API skeleton
+* **v1:** Real datasets, developer onboarding
+* **v2:** Advanced analytics and broader access
+
+---
+
+## ⚖️ Disclaimer
 
 This platform:
 
-Does not provide financial advice
+* Does **not** provide financial advice
+* Does **not** execute trades
+* Is a **data and simulation platform only**
 
-Does not execute trades
+---
 
-Is a data and simulation platform only
+If you are here early, you are helping build the foundation. Thank you.
