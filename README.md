@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Global Data Access Platform
 
-## Getting Started
+> **Early-stage startup building simple and transparent access to cross-border financial data.**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ❓ What Is This?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is an **early-stage startup**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We are building a platform that makes it easier to **access, compare, and experiment with financial data across countries** — starting with data and simulations, not real money.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This repository documents the **journey**, not just the code.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 The Problem
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Today, financial and market data is:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Fragmented across borders
+* Expensive or locked behind institutions
+* Hard for small developers, students, and researchers to access
 
-## Deploy on Vercel
+This makes global analysis and investing unfair and limited.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Our Idea
+
+We are building a platform that:
+
+* Aggregates financial data from multiple regions
+* Exposes it through a clean, developer-friendly API
+* Allows users to run **investment simulations** (no real money)
+* Grows slowly, transparently, and responsibly
+
+👉 This is **data infrastructure**, not a trading app.
+
+---
+
+## 🧪 Current Stage — v0
+
+### What Exists
+
+* A real dashboard (Overview, Data, API, Simulator)
+* User accounts and basic profiles
+* Usage tracking (API calls, activity)
+* Early data models and API structure
+
+### What Does NOT Exist (Yet)
+
+* Real-money transactions
+* Monetization
+* Institutional partnerships
+
+This is intentional for safety and focus.
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend:** Next.js (TypeScript)
+* **Backend:** API-first architecture
+* **Authentication:** Token-based (JWT / Supabase-style)
+* **Database:** PostgreSQL (in progress)
+* **Deployment:** Vercel
+
+The stack may evolve and will be documented openly.
+
+---
+
+## 🤝 How You Can Support
+
+You can support this startup by:
+
+* Contributing code or documentation
+* Giving system design or UX feedback
+* Suggesting datasets or real-world use cases
+* Supporting the project financially (early stage)
+
+Early supporters help shape direction.
+
+---
+
+## 🧑‍💻 Founder
+
+Built by a software engineering student focused on:
+
+* Systems and infrastructure
+* Long-term, real-world impact
+* Learning by building real products
+
+This started as a learning project and is growing into something serious.
+
+---
+
+## 🗺 Roadmap (High Level)
+
+* **v0:** Core platform, simulation, API skeleton
+* **v1:** Real datasets, developer onboarding
+* **v2:** Advanced analytics and broader access
+
+---
+
+## ⚖️ Disclaimer
+
+This platform:
+
+* Does **not** provide financial advice
+* Does **not** execute trades
+* Is a **data and simulation platform only**
+
+---
+
+If you are here early, you are helping build the foundation. Thank you.
